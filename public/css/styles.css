@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+}
+
+li:before{ 
+    content: '\1F354'; margin-left: -10px; margin-right: 10px; 
+}
+.form{
+    text-align: center;
+    margin: 0 auto;
+}
+.form-label{
+    display: block;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+}
+
+h1{
+    background-color: darkgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+    
+}
+h5{
+    font-style: italic;
+}
+
+.prepared-list{
+    
+    background: rgb(99, 167, 172);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+.devoured-list{
+    
+    background: rgb(236, 167, 167);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    border-radius: 6px;
+    border-color: black;
+    border-style: solid;
+}
+
+.btn{
+    border-radius: 3px;
+    border-color: black;
+    border-style: solid;
+    background-color: cornsilk;
+    margin-left: 16px;
+}

@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <!-- Moment.js -->
+    <link rel="stylesheet" href="../css/styles.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <title>Burgers</title>
 </head>
 <body>
-    <div class = "container">
-    <form id = "burger-form">
-        <input id = "burger-input">
-        <button type = "submit">Submit</button>
-        <button id = "eat-btn">EAT</button>
-    </form>
-    <div class = "row">
-        <div class = "col-6 prepared-list">
-            <h1>PREPARED BURGERS</h1>
-            <div class = "prepared"></div>
-        </div>
-        <div class = "col-6 devoured">
-            <h1>DEVOURED BURGERS</h1>
-            <div class = "devoured-list"></div>
-        </div>
+    <div class = "jumbotron display-4 text-center m-5"> GREAT BURGER
+        <h5 class = "mt-3">"Home of the Great Burger!"</h5>
     </div>
+    <div class = "container m-5">
+        <div class = "row">
+            
+            <form id = "burger-form" class = "form mb-3">
+                <label class = "form-label">ENTER JUICY BURGER NAME:</label>
+                <input id = "burger-input" class = "input">
+                <button class = "btn" type = "submit">Submit</button>
+            </form>
+        </div>
+        <div class = "row">
+            <div class = "col-6 prepared">
+                <h1 class = "p-3">PREPARED BURGERS</h1>
+                <ul class = "prepared-list p-3"></ul>
+            </div>
+            <div class = "col-6 devoured">
+                <h1 class = "p-3">DEVOURED BURGERS</h1>
+                <ul class = "devoured-list p-3"></ul>
+            </div>
+        </div>
 </div>
 <script src = "../js/main.js"></script>
 </body>

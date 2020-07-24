@@ -1,6 +1,7 @@
 $("#burger-form").on("submit", function(event){
     event.preventDefault();
     var isEaten = false;
+    console.log("CHECK");
     
 
     var newBurger = {
